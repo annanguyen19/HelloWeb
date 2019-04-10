@@ -1,0 +1,421 @@
+#mainSection
+	{
+		font-weight: 300;
+	}
+
+	.homeHeaderSection
+	{
+		background-image: linear-gradient(rgba(1, 1, 1, 1), rgba(0, 0, 0, 0.5));
+		background-position: center -6rem;
+		height: 78rem;
+	}
+   
+	.homeHeaderContainer
+	{
+		margin: 0 auto;
+		max-width: 100rem;
+		padding: 4rem 2rem;
+		width: 100%;
+	}
+
+	.homeHeaderTextContainer
+	{
+		color: #4272d7;
+		font-size: 7.2rem;
+		font-weight: 100;
+		padding-top: 23rem;
+	}
+
+	.homeHeaderTextContainer strong
+	{
+		font-weight: 700;
+	}
+
+	#iCommitToContainer
+	{
+		margin: 2rem 0 0 0.8rem;
+		position: relative;
+	}
+
+	#iCommitToBox
+	{
+		-webkit-align-items: center;
+		align-items: center;
+		height: 6rem;
+		position: relative;
+	}
+
+		#iCommitToBox label
+		{
+			margin-right: 0.5rem;
+		}
+
+		#iCommitToText
+		{
+			color: #FFFFFF;
+			font-size: 3rem;
+			font-weight: bold;
+		}
+
+		#iCommitToTypeContainer
+		{
+			margin: 0 0 0 0.8rem;
+		}
+
+			#iCommitToTypeChoice
+			{
+				font-weight: bold;
+			}
+
+				#iCommitToTypeChoice span
+				{
+					color: #4C4C4C;
+					cursor: pointer;
+				}
+
+				#iCommitToTypeChoice span.selected
+				{
+					color: #F07620;
+				}
+
+				#createYourOwnChoice
+				{
+					border-left: 1px solid #7F7F7F;
+					margin: 0 0 0 1rem;
+					padding: 0 0 0 1rem;
+				}
+
+					#iCommitToTypeChoice span.selected span.arrow
+					{
+						border-color: transparent;
+						border-left-color: #F07620;
+						border-style: solid;
+						border-width: 0.4rem;
+						display: inline-block;
+						height: 0;
+						margin: 0 0.4rem 0 0.8rem;
+						width: 0;
+					}
+
+			#iCommitToChoiceInput
+			{
+				background: rgba(255,255,255,0.25);
+				border-radius: 10rem;
+				height: 6.5rem;
+				line-height: 6.5rem;
+				margin: 0 3rem;
+				padding: 0 3rem;
+				position: relative;
+				width: 47.5rem;
+			}
+
+				
+				#goalName
+				{
+					background-color: transparent;
+					border: 0;
+					border-radius: 0;
+					box-shadow: none;
+					color: #eee;
+					font-weight: 300;
+					font-family: "Roboto", Arial, sans-serif;
+					font-size: 2.6rem;
+					padding: 0;
+					vertical-align: middle;
+				}
+
+                
+		#iCommitToSubmit
+		{
+			margin: 0 0 0 0.8rem;
+		}
+
+			#iCommitToGoButton
+			{
+				color: #fff;
+				display: inline-block;
+				font-size: 3rem;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+	
+
+	@media only screen and (max-width: 1024px)
+	{
+		.homeCommunitiesText
+		{
+			font-size: 5.25vw;
+		}
+	}
+
+	@media only screen and (max-width: 640px)
+	{
+		.homeHeaderSection
+		{
+			background-position: center top;
+			background-size: cover;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-flow: column;
+			flex-flow: column;
+			height: 130vw;
+			-webkit-justify-content: flex-end;
+			justify-content: flex-end;
+			text-align: center;
+		}
+
+		.homeHeaderTextContainer
+		{
+			font-size: 8vw;
+			padding-top: 0;
+		}
+
+		#iCommitToContainer,
+		.es #iCommitToContainer
+		{
+			height: auto;
+			padding: 0;
+			width: 100%;
+		}
+
+		#iCommitToBox
+		{
+			flex-flow: column;
+			height: auto;
+		}
+
+		#iCommitToText
+		{
+			font-size: 8vw;
+			margin: 5.5vw 0 0;
+		}
+
+		#iCommitToChoiceDrop
+		{
+			margin-top: 2.75vw;
+			width: 100%;
+		}
+
+			#iCommitToChoiceInput
+			{
+				height: auto;
+				margin: 0;
+			}
+
+			#iCommitToChoiceInput,
+			#predefinedGoalSelectContainer
+			{
+				font-size: 5vw;
+				width: 100%;
+			}
+
+			#predefinedGoal
+			{
+				font-size: 5.5vw;
+				width: 108% !important;
+			}
+
+		#iCommitToSubmit
+		{
+			margin: 2vw 0 0 0;
+		}
+
+		#iCommitToGoButton
+		{
+			font-size: 8vw;
+			height: auto;
+			padding: 3vw 13vw;
+		}
+
+		.homeStickkFlicContainer
+		{
+			-webkit-flex-flow: column;
+			flex-flow: column;
+			overflow: hidden;
+			padding: 13vw 6.5vw;
+		}
+
+		.homeStickkFlicHeadingImage
+		{
+			width: 54vw;
+		}
+
+		.homeStickkFlicDescriptionContainer
+		{
+			padding-right: 0;
+			text-align: center;
+			width: 100%;
+		}
+
+		.homeStickkFlicText,
+		.homeStickkFlicLink
+		{
+			margin-top: 6vw;
+			font-size: 5.5vw;
+		}
+
+		.homeStickkFlicVideoContainer::before
+		{
+			bottom: -11vw;
+			height: 22vw;
+			left: -7vw;
+			width: 100vw;
+		}
+
+		.homeStickkFlicVideoContainer
+		{
+			margin-top: 6vw;
+			padding-left: 0;
+			text-align: center;
+			width: 100%;
+		}
+
+		.homeStickkFlicVideo
+		{
+			border-radius: 10vw;
+			height: 61.33vw;
+			width: 100%;
+		}
+
+		.homeCommunitiesSection
+		{
+			background-size: cover;
+		}
+
+		.homeCommunitiesContainer
+		{
+			padding: 13vw 6.5vw;
+			text-align: center;
+		}
+
+		.homeCommunitiesText
+		{
+			font-size: 6.5vw;
+			white-space: normal;
+		}
+
+		.homeCommunitiesLink
+		{
+			font-size: 6vw;
+			text-align: center;
+		}
+
+		.homepageInTheNewsContainer
+		{
+			padding: 13vw 5.5vw;
+		}
+
+		.homepageInTheNewsHeading
+		{
+			font-size: 10vw;
+		}
+
+		.homepageInTheNewsLink
+		{
+			font-size: 4.5vw;
+		}
+
+		.homepageInTheNewsArticles
+		{
+			-webkit-flex-flow: column;
+			flex-flow: column;
+			margin-top: 0;
+		}
+
+		.homepageInTheNewsArticle
+		{
+			-webkit-align-items: center;
+			align-items: center;
+			margin-top: 13vw;
+			text-align: center;
+			width: 100%;
+		}
+
+		.homepageInTheNewsArticleHeading
+		{
+			font-size: 7.5vw;
+		}
+
+		.homepageInTheNewsArticleText
+		{
+			font-size: 4.5vw;
+		}
+
+		a.homepageInTheNewsArticleLink
+		{
+			font-size: 4.5vw;
+			margin-top: 5.5vw;
+		}
+
+		.homepageInTheNewsLogos
+		{
+			-webkit-flex-flow: wrap;
+			flex-flow: wrap;
+			margin-top: 13vw;
+			-webkit-justify-content: space-evenly;
+			justify-content: space-evenly;
+		}
+
+		.homepageInTheNewsLogos img
+		{
+			height: 17vw;
+			margin: 0 2%;
+			width: 17vw;
+		}
+		.nobelPrizeArticle
+		{
+			font-size: 1.4rem;
+			line-height: 2rem;
+			padding: 2rem 0;
+		}
+
+		.nobelPrizeArticle:before
+		{
+			font-size: 4rem;
+		}
+
+		.nobelPrizeArticle:after
+		{
+			font-size: 4rem;
+		}
+
+		.nobelPrizeArticle > span
+		{
+			padding: 0;
+		}
+
+		.nobelPrizeArticle a
+		{
+			display: block;
+			font-size: 1.7rem;
+			padding: 1rem 0;
+		}
+	}
+
+	
+	
+
+	
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
